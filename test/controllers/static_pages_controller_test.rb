@@ -1,8 +1,10 @@
+
 require 'test_helper'
 
 class StaticPagesControllerTest < ActionController::TestCase
   test "should get home" do
-    get :home
+    get static_pages_home_url
+    #get :home
     assert_response :success
   end
 
