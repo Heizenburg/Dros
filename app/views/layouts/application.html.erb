@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Learn</title>
+    <title>Dros</title>
     <%= csrf_meta_tags %>
     <%= stylesheet_link_tag    'application', media: 'all','data-turbolinks-track' => 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track' => 'reload' %>
@@ -9,11 +9,12 @@
       <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/r29/html5.min.js">
       </script>
     <![endif]-->
+    <%= favicon_link_tag 'rails.png' %>
   </head>
   <body>
     <header class="navbar navbar-fixed-top navbar-inverse">
       <div class="container">
-    <%= link_to "sample app", root_path, id: "logo" %>
+    <%= link_to "Dros", root_path, id: "logo" %>
     <nav>
       <ul class="nav navbar-nav navbar-right">
         <li><%= link_to "Home", root_path %></li>
