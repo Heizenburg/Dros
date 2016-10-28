@@ -24,7 +24,7 @@ module SessionsHelper
          @current_user = user
        end
      end
-   end
+  end
 
   def logged_in?
     !current_user.nil?
@@ -33,7 +33,7 @@ module SessionsHelper
   def log_out
    session.delete(:user_id)
    @current_user = nil
- end
+  end
 
  # Forgets a persistent session.
   def forget(user)
